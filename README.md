@@ -1,0 +1,2 @@
+# Cryptographic-File-System-Using-Sharding
+Created a symmetric encryption system in python to protect files. To increase the security complexity of the system – incorporated sharding which allowed splitting the file into chunks and encrypt each chunk independently. The project also has a module for erasure coding which allows us to recover the original data in case of any file tampering or chunk loss (if this is the case – the user is notified). In addition to these functionalities, we also use Merkel Trees to prove the authenticity and integrity of files.
